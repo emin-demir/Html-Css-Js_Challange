@@ -1,0 +1,22 @@
+{
+  "employees": [
+    {
+      "name": "Ranon",
+      "department": "Pazarlama",
+      "salary": 3500,
+      "id": 1
+    },
+    {
+      "name": "Muhammed Emin",
+      "department": "Satış",
+      "salary": 5500,
+      "id": 2
+    },
+    {
+      "name": "Ranon hackerrank",
+      "department": "Satış",
+      "salary": 25,
+      "id": 3
+    }
+  ]
+}

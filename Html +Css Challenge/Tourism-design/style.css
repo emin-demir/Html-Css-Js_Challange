@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./img/joshua-earle-X_roZ7toBJY-unsplash.jpg");
+    background-size: cover;
+    font-family: "Prata", sans-serif;
+    margin: 0;
+}
+.container {
+    display: flex;
+}
+.menu {
+    background-color: #fff;
+    min-height: 100vh;
+    width: 300px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: black;
+}
+.menu-bar {
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.25rem;
+    font-weight: 300;
+    margin: 1rem;
+}
+.visit{
+    background-color: #FEAB51;
+    color: black;
+    margin: 1.25rem;
+    padding: 0.75rem;
+    text-align: center;
+}
+.header {
+    margin-left: 6rem;
+    color: #fff;
+    font-size:4rem;
+}
+h1{
+    letter-spacing: 3px;
+    font-weight: normal;
+    font-size:4rem;
+    text-align: left;
+    margin: 0;
+}
+h2{
+    margin: 0;
+    font-size:4rem;
+    font-weight: normal;
+    color: #FEAB51;
+}

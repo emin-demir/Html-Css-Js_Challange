@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 60%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.pw-container {
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #28313b 0%,#485461 120%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    min-width: 400px;
+}
+
+.pw-header {
+    padding: 1rem;
+}
+
+.pw {
+    background-color: #363f49;
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    position: relative;
+    padding: 1rem;
+    overflow: auto;
+}
+.form-control {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.pw button {
+    background-color: white;
+    border: none;
+    color: rgb(29, 2, 56);
+    cursor: pointer;
+    padding: 0.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(0, 20%);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    opacity: 0;
+}
+
+.pw:hover button {
+    opacity: 1;
+    transform: translate(0, 0%);
+}
+.generate{
+    background-color: #485461;
+    border:none;
+    padding: 1rem;
+    width: 100%;
+    cursor: pointer;
+}
+.generate:hover{
+    background-color: #363f49;
+}
+.generate:active{
+    background-color: #1f252a;
+}

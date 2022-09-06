@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background-color: #d11725;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 5rem;
+  margin: 2rem;
+  color: #fff;
+}
+.header {
+  text-align: center;
+}
+h2 {
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 75px;
+  font-size: 4rem;
+  margin: 0;
+}
+h3 {
+  letter-spacing: 1px;
+  font-size: 2rem;
+  margin: 0;
+}
+.menu {
+    overflow: hidden;
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    margin-top: 10rem;
+}
+.carousel{
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateX(0);
+    transition: transform 0.4s ease-in-out;
+}
+.slide {
+    width: 100vw;
+    text-align: center;
+}
+.btn {
+  color: #a50015;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  font-size: 5rem;
+}
+.left {
+    left: 2rem;
+}
+.right {
+    right: 1rem;
+}
+img {
+  object-fit: cover;
+  height: 400px;
+  width: 400px;
+}
+h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 144px;
+  line-height: 169px;
+  color: #ffffff;
+  text-shadow: 0px 15px 55px rgba(0, 0, 0, 0.75);
+  margin: 0;
+}
+a{
+    text-align: center;
+    background-color: #40020E;
+    color: #ffffff;
+    padding:1rem;
+    font-size:2rem;
+    text-decoration: none;
+}
